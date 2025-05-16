@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 // import MovieCast from "./MovieCast/MovieCast";
 // import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 import Loader from "./Loader/Loader";
+import { Toaster } from "react-hot-toast";
 // import MovieReviews from "./MovieReviews/MovieReviews";
 
 const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
@@ -22,6 +23,7 @@ const App = () => {
   return (
     <div>
       <Suspense fallback={<Loader />}>
+        {/* <Toaster position="top-right" /> */}
         <Navigation />
         <Routes>
           <Route path="/" element={<HomePage />} />

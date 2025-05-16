@@ -16,7 +16,7 @@ const SearchBar = ({ query, handleChangeQuery }) => {
     }
     handleChangeQuery(trimmedQuery);
 
-    // options.resetForm();
+    options.resetForm();
   };
   return (
     <div>
