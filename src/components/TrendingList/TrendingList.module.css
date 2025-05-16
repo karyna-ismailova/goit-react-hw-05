@@ -1,0 +1,12 @@
+.list {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: color 0.3s;
+  margin-top: 16px;
+  font-size: 16px;
+  margin-left: 16px;
+  list-style: none;
+}
+.list:hover {
+  color: rgb(220, 116, 116);
+}
